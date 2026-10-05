@@ -1,0 +1,50 @@
+# Binaries and Executables
+/bin/
+/build/
+/dist/
+*.exe
+*.exe?
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.crt
+
+# IDEs and Text Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Go Specific
+# Dependencies created by go mod vendor if you prefer not tracking vendors
+vendor/
+# Coverage outputs
+*.cover
+*.mo
+coverage.txt
+coverage.out
+
+# Database & Storage
+# Local DB volume data (e.g., if using Docker compose locally)
+pgdata/
+mongodata/
+*.db
+*.sqlite
+
+# Logs & Temporary Files
+/logs/
+*.log
+tmp/
+.tmp/
