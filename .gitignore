@@ -1,0 +1,28 @@
+# Binaries
+/bin/
+
+# Environment
+.env
+
+# Test coverage
+coverage.out
+coverage.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go build cache
+*.test
+
+# Air (hot reload)
+tmp/
+
+# Docker
+.dockerignore
